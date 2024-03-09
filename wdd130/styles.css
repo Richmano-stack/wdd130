@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Set the width of the main element */
+main {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the main content */
+  }
+  
+  /* Style the aside element */
+  aside {
+    width: 200px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the footer element */
+  footer {
+    margin-top: 20px; /* Add top margin */
+    border-top: 1px solid #ccc; /* Add top border */
+    text-align: center; /* Align text to the center */
+  }
+  
