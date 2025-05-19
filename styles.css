@@ -1,21 +1,46 @@
-/* Main image styling */
+/* Navi */
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Profile image (inside main) */
 main img {
   width: 150px;
   height: auto;
 }
 
-/* Paragraph reset padding */
+/* Paragraphs */
 p {
   padding: 0;
 }
 
-/* Aside styling */
+/* Aside section */
 aside {
-  width: 70%;
-  margin: 30px auto;
-  border: 1px solid #ccc;
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #333;
   padding: 15px;
-  background-color: #f5f5f5;
+  background-color: #f4f4f4;
   color: #333;
 }
 
@@ -25,11 +50,9 @@ aside img {
   height: auto;
 }
 
-/* Footer styling */
+/* Footer */
 footer {
-  margin-top: 30px;
-  border-top: 2px solid #000;
+  margin-top: 40px;
+  border-top: 2px solid #666;
   text-align: center;
-  padding: 15px 0;
-  background-color: #eaeaea;
 }
